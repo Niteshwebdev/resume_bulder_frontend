@@ -1,0 +1,70 @@
+.st{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+  
+    font-weight: bold;
+    background: linear-gradient(90deg, blue, rgb(255, 68, 99), rgb(201, 25, 201)); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+   
+  }
+  
+  .card-custom img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-custom {
+    background-color: #f8f9fa; /* light grey background */
+    border: 1px solid #ddd; /* light grey border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    position: relative; /* necessary for positioning the button */
+    transition: transform 0.3s, box-shadow 0.3s; /* smooth transition effects */
+  
+  }
+  
+  .template-image-container{
+    width: 250%;
+    height: 50%;  /* Adjust the height of the image container */
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  
+  
+  
+  .card-custom:hover {
+    transform: translateY(-5px); /* slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* deeper shadow on hover */
+  }
+  
+  .card-custom .hover-button {
+    display: none; /* hidden by default */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: opacity 0.3s; /* smooth transition for button appearance */
+  }
+  
+  .card-custom:hover .hover-button {
+    display: block; /* shown on hover */
+  }
+
+  .template-card {
+    display: flex;
+    justify-content: center;
+ 
+  }
+  
+ 
